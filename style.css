@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background:linear-gradient(135deg,#4b2cbf,#d41c5f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+    padding: 20px;
+}
+.profile-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+h1{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+p{
+    color: rgb(216, 212, 212);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    color: white;
+    border-radius: 12px;
+    text-decoration:none;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: transform 0.2s , opacity 0.2s;
+}
+.button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.instagram{
+    background: linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);
+}
+
+.github{
+    background: #3b3d3f;
+}
+
+.facebook {
+   background:#1877F2 ; 
+}
+
+.linkedin {
+    background: #0a66c2;
+}
+.linkedin:hover{
+     box-shadow: 0 0 15px rgba(3, 68, 68, 0.6);
+}
+
+
+.whatsaap{
+    background: #25D366;
+}
+
+.whatsaap:hover{
+    box-shadow: 0 0 15px rgba(1, 2, 2, 0.6);
+}
+
